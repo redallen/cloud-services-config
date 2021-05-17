@@ -666,6 +666,14 @@ application-services:
       - id: data-science
         title: "Data Science"
         group: overview
+        sub_apps:
+          - id: resources
+            title: Resources
+          - id: enabled
+            title: Enabled
+          - id: explore
+            title: Explore
+      - id: cost-management
       - id: cos
         title: "Connectors"
         group: overview
